@@ -22,4 +22,5 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  adapater: postgresql
+  database: katara_prod
